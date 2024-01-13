@@ -27,6 +27,9 @@ const genderVerification=(gender)=>
     return false;
   }
 }
+app.get("/",(req,res)=>{
+    res.status(200).json({message:"Hello I'm Divyesh Vankar! from IIT Guwahati. This is server of Voting Dapp."})
+})
 
 // For gender verification
 app.post("/api/voter-verification",(req,res)=>{
