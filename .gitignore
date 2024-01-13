@@ -1,0 +1,70 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Visual Studio Code directory
+.vscode/
+
+# Editor configuration
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.kate-swp/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+*.log
+*.log.[0-9]*
+*.log-*[0-9]*
+*.tml
+*.tmx
+*.man
+*.dat
+*.gz
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code folders
+.vscode/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# npm configuration
+.npm
+
+# User-specific files
+*.config
